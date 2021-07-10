@@ -1,0 +1,70 @@
+
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.nav{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.nav_left{
+	width: 20%;
+	float: left;
+	overflow: hidden;
+}
+
+ .nav_left a {
+ 	display: flex;
+ 	text-decoration: none;
+ }
+.nav_left img{
+	width: 55px
+}
+
+.nav_left span{
+    font-size: 22px;
+    padding: 15px 6px;
+    color: #631CEE
+}
+
+.nav_mid{
+	width: 70%;
+	float: left;
+	overflow: hidden;
+	margin: auto;
+}
+
+.nav_mid ul li{
+	float: left;
+}
+
+
+.nav_right{
+	width: 10%;
+	overflow: hidden;
+}
+
+.banner {
+	background: url(image/mbr-4.jpg)  no-repeat center center;
+	padding-top: 150px;
+	background-size: cover;
+
+}
+
+.banner p{
+	
+	color: #fff;
+	text-align: center;
+	font-size: 25px;
+    font-weight: 500;
+}
+
+.banner h1{
+	text-align: center;
+	color: #fff;
+	font-size: 50px;
+}
